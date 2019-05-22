@@ -36,7 +36,7 @@ Unit Test
 Define an array for the checkout storage - and add in initialize method, and attr_reader
 Define method push each item to the checkout storage array
  
-—————————————————————————————————————————
+
 User story 3
 As a shopper
 So that I know how much to pay
