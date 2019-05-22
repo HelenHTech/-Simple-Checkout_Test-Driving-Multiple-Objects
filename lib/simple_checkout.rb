@@ -17,10 +17,11 @@ class Checkout
     }
   end
 
-  def total_price(scanned_item)
-    scanned_item.each { |item|
-      total += check_price[item]
+  def total_price
+    @scanned_items.each { |item|
+      @total += check_price(item).to_i
     }
+    return total
   end
 
 end
